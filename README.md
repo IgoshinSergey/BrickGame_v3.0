@@ -49,12 +49,27 @@
 
 ### Command-line Interface
 
-![brick_game_cli](examples/cli.mp4)
+<video width="640" height="480" controls>
+  <source src="examples/cli.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
+
+<!-- ![brick_game_cli](examples/cli.mp4) -->
 
 ### Desktop
 
-![brick_game_desktop](examples/desktop.mp4)
+<video width="640" height="480" controls>
+  <source src="examples/desktop.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
+
+<!-- ![brick_game_desktop](examples/desktop.mp4) -->
 
 ### Web
 
-![brick_game_web](examples/web.mp4)
+<video width="640" height="480" controls>
+  <source src="examples/web.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео.
+</video>
+
+<!-- ![brick_game_web](examples/web.mp4) -->
