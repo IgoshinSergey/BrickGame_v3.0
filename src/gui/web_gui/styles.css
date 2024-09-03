@@ -19,27 +19,26 @@ body {
 
 #games-list {
     display: flex;
-    flex-direction: column; /* Расположение кнопок по вертикали */
-    align-items: center; /* Центрирование кнопок по горизонтали */
-    margin: 20px; /* Отступы вокруг контейнера */
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 
 button {
-    background-color: #8beff1; /* Голубоватый цвет */
-    color: black; /* Цвет текста */
-    /* border: none; Убираем рамку */
+    background-color: #8beff1;
+    color: black;
     border-color: black;
-    border-radius: 5px; /* Закругленные углы */
-    padding: 15px; /* Отступы внутри кнопки */
-    font-size: 14px; /* Размер шрифта */
-    cursor: pointer; /* Указатель при наведении */
-    transition: background-color 0.3s ease; /* Плавный переход цвета */
-    margin: 10px; /* Отступы между кнопками */
-    width: 100px; /* Фиксированная ширина кнопки */
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    width: 100px;
 }
 
 button:hover {
-    background-color: #0088cc; /* Темнее голубого цвета при наведении */
+    background-color: #0088cc;
 }
 
 #game-board {
@@ -83,36 +82,33 @@ button:hover {
 }
 
 #side-panel {
-    /* width: 120px; Установите ширину, соответствующую ширине #games-list */
-    margin: 20px; /* Отступы вокруг контейнера */
+    margin: 20px;
     width: 120px;
-    display: flex; /* Используем Flexbox */
-    flex-direction: column; /* Располагаем элементы по вертикали */
-    align-items: center; /* Центрируем элементы по горизонтали */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Стили для таблицы */
 table {
-    width: 100%; /*Занимает всю ширину контейнера */
-    border-collapse: collapse; /* Убирает двойные границы между ячейками */
+    width: 100%;
+    border-collapse: collapse;
     overflow: hidden;
-    background-color: #8beff1; /* Цвет фона заголовков */
+    background-color: #8beff1;
 }
 
 tr {
     font-size: 14px;
 }
-/* Стили для заголовков таблицы */
+
 th {
-    color: white; /* Цвет текста заголовков */
-    padding: 10px; /* Отступы внутри заголовков */
-    text-align: left; /* Выравнивание текста в заголовках */
+    color: white;
+    padding: 10px;
+    text-align: left;
 }
 
-/* Стили для ячеек таблицы */
 td {
-    border: 2px solid black; /* Черная обводка ячеек */
-    padding: 8px; /* Отступы внутри ячеек */
-    text-align: left; /* Выравнивание текста в ячейках */
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
