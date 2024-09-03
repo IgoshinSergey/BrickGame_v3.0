@@ -1,0 +1,118 @@
+html {
+    min-height: 100vh;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00BCD4;
+}
+
+#game {
+    display: flex;
+    gap: 20px;
+}
+
+#games-list {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок по вертикали */
+    align-items: center; /* Центрирование кнопок по горизонтали */
+    margin: 20px; /* Отступы вокруг контейнера */
+}
+
+button {
+    background-color: #8beff1; /* Голубоватый цвет */
+    color: black; /* Цвет текста */
+    /* border: none; Убираем рамку */
+    border-color: black;
+    border-radius: 5px; /* Закругленные углы */
+    padding: 15px; /* Отступы внутри кнопки */
+    font-size: 14px; /* Размер шрифта */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+    margin: 10px; /* Отступы между кнопками */
+    width: 100px; /* Фиксированная ширина кнопки */
+}
+
+button:hover {
+    background-color: #0088cc; /* Темнее голубого цвета при наведении */
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--game-board-gap);
+    background: var(--game-board-background);
+    padding: var(--game-board-gap);
+    width: calc(
+        (var(--tile-size) + var(--game-board-gap)) * var(--game-board-width) -
+            var(--game-board-gap)
+    );
+}
+
+#next-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--next-board-gap);
+    background: var(--next-board-background);
+    padding: var(--next-board-gap);
+    width: calc(
+        (var(--tile-size) + var(--next-board-gap)) * var(--next-board-width) -
+            var(--next-board-gap)
+    );
+    height: min-content;
+    margin-bottom: 40px;
+}
+
+.tile {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background: var(--tile-color);
+}
+
+.active {
+    background: var(--tile-active-color);
+}
+
+.dashboard-text {
+    font-size: 2rem;
+}
+
+#side-panel {
+    /* width: 120px; Установите ширину, соответствующую ширине #games-list */
+    margin: 20px; /* Отступы вокруг контейнера */
+    width: 120px;
+    display: flex; /* Используем Flexbox */
+    flex-direction: column; /* Располагаем элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%; /*Занимает всю ширину контейнера */
+    border-collapse: collapse; /* Убирает двойные границы между ячейками */
+    overflow: hidden;
+    background-color: #8beff1; /* Цвет фона заголовков */
+}
+
+tr {
+    font-size: 14px;
+}
+/* Стили для заголовков таблицы */
+th {
+    color: white; /* Цвет текста заголовков */
+    padding: 10px; /* Отступы внутри заголовков */
+    text-align: left; /* Выравнивание текста в заголовках */
+}
+
+/* Стили для ячеек таблицы */
+td {
+    border: 2px solid black; /* Черная обводка ячеек */
+    padding: 8px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста в ячейках */
+}
+
