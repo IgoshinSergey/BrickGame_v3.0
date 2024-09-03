@@ -50,7 +50,7 @@
 ### Command-line Interface
 
 <video width="640" height="480" controls>
-  <source src="examples/cli.mp4" type="video/mp4">
+  <source src="./examples/cli.mp4" type="video/mp4">
   Ваш браузер не поддерживает видео.
 </video>
 
@@ -59,7 +59,7 @@
 ### Desktop
 
 <video width="640" height="480" controls>
-  <source src="examples/desktop.mp4" type="video/mp4">
+  <source src="./examples/desktop.mp4" type="video/mp4">
   Ваш браузер не поддерживает видео.
 </video>
 
@@ -68,7 +68,7 @@
 ### Web
 
 <video width="640" height="480" controls>
-  <source src="examples/web.mp4" type="video/mp4">
+  <source src="./examples/web.mp4" type="video/mp4">
   Ваш браузер не поддерживает видео.
 </video>
 
